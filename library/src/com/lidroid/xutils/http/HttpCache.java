@@ -57,6 +57,7 @@ public class HttpCache {
             protected int sizeOf(String key, String value) {
                 if (value == null) return 0;
                 return value.length();
+                Log.e("TAG","test");
             }
         };
     }
